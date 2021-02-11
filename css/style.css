@@ -1,4 +1,11 @@
 *{
     box-sizing: border-box;
-    margin: 0;
+    
+}
+
+.h-container{
+    margin: 20px auto;
+    background: fuchsia;
+    height: 100px;
+    
 }
