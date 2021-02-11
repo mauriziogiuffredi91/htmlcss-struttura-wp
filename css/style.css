@@ -1,6 +1,11 @@
 *{
     box-sizing: border-box;
-    
+}
+
+/* bloccare scroll */
+body{
+    margin: 0 60px;
+    overflow: hidden;
 }
 
 .h-container{
@@ -19,8 +24,8 @@
 
 .main-container{
     margin: 20px auto;
-    background: dodgerblue;
-    height: 420px;
+    background: blue;
+    height: 450px;
 
 }
 
@@ -32,10 +37,41 @@
     clear: both;
 }
 
+.top-container{
+    background: dodgerblue;
+    height: 50px;
+}
+
+.left-container{
+    background: dodgerblue;
+    width: 285px;
+    height: 380px;
+    float: left;
+    margin: 10px 0;
+
+}
+
+.middle-container{
+    background: dodgerblue;
+    width: 776px;
+    height: 380px;
+    float: left;
+    margin: 10px;
+    
+
+}
+
+.right-container{
+    background: dodgerblue;
+    width: 285px;
+    height: 380px;
+    float: left;
+    margin: 10px 0;
+}
 
 
 .f-container{
     margin: 20px auto;
     background: darkviolet;
-    height: 50px;
+    height: 30px;
 }
