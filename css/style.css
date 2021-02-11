@@ -6,14 +6,26 @@
 .h-container{
     margin: 20px auto;
     background: fuchsia;
-    height: 100px;
+    height: 70px;
     
 }
 
-.first-container{
+.pre-container{
     margin: 20px auto;
     background: #b8860b7d;
     height: 300px;
 
 }
 
+.main-container{
+    margin: 20px auto;
+    background: dodgerblue;
+    height: 420px;
+
+}
+
+.f-container{
+    margin: 20px auto;
+    background: darkviolet;
+    height: 50px;
+}
